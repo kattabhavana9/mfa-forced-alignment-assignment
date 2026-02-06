@@ -35,6 +35,10 @@ data/
     ├── F2BJRL3.txt
     ├── ISLE_SESS0131_BLOCKD02_01_sprt1.wav
     └── ISLE_SESS0131_BLOCKD02_01_sprt1.txt
+    ├── ISLE_SESS0131_BLOCKD02_02_sprt1.wav
+    └── ISLE_SESS0131_BLOCKD02_02_sprt1.txt
+    ├── ISLE_SESS0131_BLOCKD02_03_sprt1.wav
+    └── ISLE_SESS0131_BLOCKD02_03_sprt1.txt
 ### Notes
 - Each `.wav` file has a matching `.txt` transcript  
 - Transcripts contain **uppercase English text**  
