@@ -78,6 +78,8 @@ output/
     ├── F2BJRL2.TextGrid
     ├── F2BJRL3.TextGrid
     └── ISLE_SESS0131_BLOCKD02_01_sprt1.TextGrid
+    └── ISLE_SESS0131_BLOCKD02_02_sprt1.TextGrid
+    └── ISLE_SESS0131_BLOCKD02_02_sprt1.TextGrid
 ### Each TextGrid contains:
 - **Word tier**
 - **Phoneme tier**
