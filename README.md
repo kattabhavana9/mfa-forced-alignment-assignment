@@ -12,7 +12,7 @@ The alignment outputs are generated as **TextGrid** files and inspected using **
 - **MFA Version**: 3.3.9  
 - **Environment Manager**: Conda / Micromamba  
 
-### Installation
+Installation
 
 ```bash
 conda create -n mfa -c conda-forge montreal-forced-aligner
