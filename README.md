@@ -18,6 +18,7 @@ Installation
 conda create -n mfa -c conda-forge montreal-forced-aligner
 conda activate mfa
 mfa version
+```
 
 ## 2. Dataset Preparation
 
@@ -38,8 +39,7 @@ data/
 - Each `.wav` file has a matching `.txt` transcript  
 - Transcripts contain **uppercase English text**  
 - One speaker per folder (required by MFA)
-
----
+```
 
 ## 3. Pronunciation Dictionary Selection
 
@@ -51,7 +51,7 @@ data/
 ```bash
 mfa model download dictionary english_us_arpa
 mfa model download acoustic english_us_arpa
-
+```
 ## 4. Forced Alignment Execution
 
 ```bash
@@ -63,8 +63,7 @@ mfa align data english_us_arpa english_us_arpa output --clean
 - First-pass alignment  
 - Final alignment  
 - TextGrid generation  
-
----
+```
 
 ## 5. Output Files
 
@@ -78,8 +77,7 @@ output/
 ### Each TextGrid contains:
 - **Word tier**
 - **Phoneme tier**
-
----
+```
 
 ## 6. Alignment Inspection Using Praat
 
@@ -95,7 +93,6 @@ output/
 
 Screenshots of alignment visualization are included for reference.
 
----
 
 ## 7. Handling Out-of-Vocabulary (OOV) Words
 
@@ -107,13 +104,13 @@ The `--ignore_oov` flag was used to allow alignment to continue without failure:
 
 ```bash
 mfa align data english_us_arpa english_us_arpa output --ignore_oov --clean
-
+```
 ### Result
 - Alignment completed successfully  
 - OOV words were skipped but logged  
 - Overall alignment quality improved  
 
----
+
 
 ## Key Observations
 - Pretrained MFA English models work well for clean speech  
