@@ -131,3 +131,13 @@ mfa align data english_us_arpa english_us_arpa output --ignore_oov --clean
 - Praat (TextGrid visualization)  
 - Conda / Micromamba  
 
+## Report
+The detailed report for this assignment is available as a PDF:
+- `MFA_Forced_Alignment_Report.pdf`
+
+The report includes:
+- Model and dictionary details
+- Alignment execution steps
+- Praat visualization
+- OOV handling (before & after)
+- Key observations
