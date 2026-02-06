@@ -39,11 +39,12 @@ data/
     └── ISLE_SESS0131_BLOCKD02_02_sprt1.txt
     ├── ISLE_SESS0131_BLOCKD02_03_sprt1.wav
     └── ISLE_SESS0131_BLOCKD02_03_sprt1.txt
+```
 ### Notes
 - Each `.wav` file has a matching `.txt` transcript  
 - Transcripts contain **uppercase English text**  
 - One speaker per folder (required by MFA)
-```
+
 
 ## 3. Pronunciation Dictionary Selection
 
@@ -60,14 +61,14 @@ mfa model download acoustic english_us_arpa
 
 ```bash
 mfa align data english_us_arpa english_us_arpa output --clean
-
+```
 ### This step performs:
 - MFCC feature extraction  
 - Graph compilation  
 - First-pass alignment  
 - Final alignment  
 - TextGrid generation  
-```
+
 
 ## 5. Output Files
 
@@ -80,10 +81,11 @@ output/
     └── ISLE_SESS0131_BLOCKD02_01_sprt1.TextGrid
     └── ISLE_SESS0131_BLOCKD02_02_sprt1.TextGrid
     └── ISLE_SESS0131_BLOCKD02_02_sprt1.TextGrid
+```
 ### Each TextGrid contains:
 - **Word tier**
 - **Phoneme tier**
-```
+
 
 ## 6. Alignment Inspection Using Praat
 
